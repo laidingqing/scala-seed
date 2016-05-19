@@ -50,7 +50,7 @@ libraryDependencies ++= {
 
 scalacOptions in ThisBuild ++= Seq("-feature", "-deprecation", "-unchecked", "-encoding", "UTF-8", "-language:postfixOps", "-nobootcp")
 
-mainClass in Compile := Some("skarn.BootApi")
+mainClass in Compile := Some("avalon.BootApi")
 
 javaOptions ++= Seq(
   "-Dhttp.port=8080",

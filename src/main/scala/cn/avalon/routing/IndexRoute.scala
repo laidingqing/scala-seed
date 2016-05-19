@@ -2,7 +2,6 @@ package avalon
 package routing
 
 import akka.actor.ActorContext
-import skarn.push.PushServiceInfo
 import spray.routing._
 import Directives._
 import spray.http.MediaTypes._
